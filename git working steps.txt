@@ -1,0 +1,47 @@
+//Create a repositery
+git inti
+
+//give username and email to access
+git config --global user.name 'lahiru2001'
+git config --gloabl user.email '2001lahiru123@gmail.com
+
+//file add to the repositery stiil not comitted(stage area)
+git add <file name with extension>
+
+//remove the file from repositery
+git rm --cached <file name with extension>
+
+// track the changes
+git status
+
+//add file to the repo base on the extension
+git add *html
+
+// add all file into repositery
+git add .
+
+//commit the repositery
+type 'git commit' and press enter-->Then editor will open-->then after press 'i' button to enable the edit option
+Enter the commit --> pree escape button to exit from the editor --> then after type :wq and ppress enter
+
+check the commit using git status
+
+//easy way to commit
+type git commit -m "<your commit message here"
+
+
+//git ignor file
+type touch .ignore
+then after enter the file name inside the ignore file to which you want to ignor
+then after commit the changes
+
+
+//create a branch
+git branch login
+
+//switch to login branch
+git checkout login
+
+
+
+
